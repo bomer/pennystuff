@@ -48,6 +48,9 @@ file_put_contents("data.json", json_encode($people));
 // for ($i=0; $i < count($people); $i++) { 
 // 	echo $people[$i] . "<br>";
 // }
+
+
+
 echo "<br>";
 foreach ($people as $key => $person) {
 	echo $key . " - " . $person."<br>";
