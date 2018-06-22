@@ -37,6 +37,12 @@ error_reporting(E_ERROR);
 // $people["Daum"] = "super awesomeish guy";
 
 $newperson=$_POST['name'];
+
+
+//do stuff next plz for assignment
+
+
+
 $desc=$_POST['description'];
 
 $people[$newperson] = $desc;
